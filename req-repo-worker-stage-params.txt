@@ -1,0 +1,16 @@
+ASGIamInstanceProfile	CodeDeployNodejsEc2	-
+ASGInstanceType	t2.medium	-
+ASGMaxSize	1	-
+ASGMinSize	1	-
+ASGSubnets	subnet-5182217a,subnet-3d37524a,subnet-5eca7007,subnet-b0afe18a	-
+CodeDeployServiceRoleId	arn:aws:iam::155931747413:role/CodeDeployNodejsEc2	-
+ELBCertificateId	arn:aws:acm:us-east-1:155931747413:certificate/2c696154-ee22-4880-be1a-8995b964c605	-
+ELBFriendlyName	req-repo-worker-scratch	-
+ELBHealthCheck	HTTP:80/status	-
+ELBScheme	internet-facing	-
+ELBSecurityGroups	sg-04b95932713966f13	-
+ELBSubnets	subnet-5182217a,subnet-3d37524a,subnet-5eca7007,subnet-b0afe18a	-
+InstanceKeyName	job-dist-key	-
+InstancePort	80	-
+InstanceSecurityGroups	sg-0103c270b3fc32a8a	-
+LaunchConfigAMI	ami-050b178c225d48a23
